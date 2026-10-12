@@ -1,0 +1,58 @@
+/* PAGE CONTAINER */
+.admin-security-container {
+  padding: 40px;
+}
+
+
+/* TITLE */
+.admin-security-container h3 {
+  font-size: 26px;
+  color: #5a3e2b;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+
+/* SECURITY CARD */
+.security-card {
+  background: linear-gradient(135deg, #d9c7b3, #cbb39c);
+  
+  max-width: 600px;
+  margin: auto;
+  
+  padding: 30px;
+  
+  border-radius: 16px;
+  
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  
+  gap: 18px;
+
+  transition: 0.3s ease;
+}
+
+
+/* HOVER EFFECT */
+.security-card:hover {
+  transform: translateY(-5px);
+}
+
+
+/* TEXT */
+.security-card p {
+  font-size: 17px;
+  color: #3b2415;
+
+  background: rgba(255,255,255,0.3);
+  
+  padding: 12px 15px;
+
+  border-radius: 8px;
+
+  margin: 0;
+
+  font-weight: 500;
+}

@@ -1,0 +1,92 @@
+.manage-users-container {
+  padding: 30px;
+  background: #f5efe9;
+  min-height: 100vh;
+}
+
+.user-stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  background: #DCCCBD;
+  padding: 20px 30px;
+  border-radius: 14px;
+  color: #5A463A;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.stat-card span {
+  display: block;
+  font-size: 26px;
+  margin-top: 5px;
+}
+
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.user-card {
+  background: #DCCCBD;
+  border-radius: 18px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.user-card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.user-card h3 {
+  margin: 5px 0;
+  color: #5A463A;
+}
+
+.user-card p {
+  font-size: 14px;
+  color: #5A463A;
+}
+
+.active {
+  color: green;
+  font-weight: 600;
+}
+
+.blocked {
+  color: red;
+  font-weight: 600;
+}
+
+.user-actions {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.user-actions button {
+  border: none;
+  padding: 7px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #5A463A;
+  color: #DCCCBD;
+}
+
+.block {
+  background: #8b0000;
+}
+
+.unblock {
+  background: green;
+}

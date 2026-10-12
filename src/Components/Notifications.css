@@ -1,0 +1,47 @@
+.notifications-container {
+  padding: 40px;
+  background: #f5efe9;
+  min-height: calc(100vh - 70px);
+}
+
+.notification-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.notification-card {
+  background: #DCCCBD;
+  border-radius: 14px;
+  padding: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.notification-card.unread {
+  border-left: 6px solid #5A463A;
+}
+
+.notification-card.read {
+  opacity: 0.75;
+}
+
+.notification-card h4 {
+  margin-bottom: 6px;
+  color: #5A463A;
+}
+
+.notification-card p {
+  color: #5A463A;
+}
+
+.notification-card .type {
+  font-size: 12px;
+  margin-top: 6px;
+  display: inline-block;
+  background: #5A463A;
+  color: #DCCCBD;
+  padding: 4px 10px;
+  border-radius: 20px;
+}

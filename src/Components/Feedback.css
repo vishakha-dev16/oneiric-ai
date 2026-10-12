@@ -1,0 +1,80 @@
+.feedback-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #DCCCBD;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.feedback-container h2 {
+  color: #5A463A;
+}
+
+.feedback-sub {
+  margin-bottom: 20px;
+  color: #5A463A;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #5A463A;
+  font-size: 15px;
+  outline: none;
+}
+
+.feedback-form textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.rating-box {
+  text-align: left;
+  color: #5A463A;
+}
+
+.stars {
+  font-size: 26px;
+}
+
+.star {
+  cursor: pointer;
+  color: #b5a99f;
+}
+
+.star.active {
+  color: #5A463A;
+}
+
+.send-btn {
+  margin-top: 10px;
+  padding: 12px;
+  background: #5A463A;
+  color: #DCCCBD;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  opacity: 0.9;
+}
+
+.success-msg {
+  background: #5A463A;
+  color: #DCCCBD;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}

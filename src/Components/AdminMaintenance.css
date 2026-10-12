@@ -1,0 +1,110 @@
+/* ===== MAINTENANCE PAGE ===== */
+
+.maintenance-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #DCCCBD;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.maintenance-container h3 {
+  color: #5A463A;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+/* ===== TOGGLE SWITCH ===== */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 34px;
+  margin: 15px 0;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #b5a89d;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #fff;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #5A463A;
+}
+
+input:checked + .slider:before {
+  transform: translateX(30px);
+}
+
+/* ===== STATUS TEXT ===== */
+
+.maintenance-container p {
+  margin: 15px 0;
+  font-size: 16px;
+  color: #5A463A;
+}
+
+/* ===== MESSAGE BOX ===== */
+
+.maintenance-container textarea {
+  width: 100%;
+  min-height: 110px;
+  border-radius: 12px;
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+  resize: none;
+  margin-top: 15px;
+  background: #f5efe9;
+  color: #5A463A;
+  outline: none;
+}
+
+.maintenance-container textarea::placeholder {
+  color: #7a6a5e;
+}
+
+/* ===== SAVE BUTTON ===== */
+
+.save-btn {
+  margin-top: 20px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 12px;
+  background: #5A463A;
+  color: #DCCCBD;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.save-btn:hover {
+  transform: translateY(-2px);
+  background: #46362c;
+}

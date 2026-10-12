@@ -1,0 +1,60 @@
+.edit-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.edit-profile-card {
+  background-color: #E8DCCB;
+  width: 380px;
+  padding: 35px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.edit-profile-card h2 {
+  margin-bottom: 20px;
+  color: #5A463A;
+}
+
+.edit-profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #A68A7B;
+  margin-bottom: 20px;
+}
+
+.edit-profile-card input,
+.edit-profile-card textarea {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #A68A7B;
+  outline: none;
+  background-color: #F2E9DC;
+  color: #5A463A;
+}
+
+.edit-profile-card textarea {
+  height: 90px;
+  resize: none;
+}
+
+.save-btn {
+  margin-top: 15px;
+  padding: 12px 30px;
+  background-color: #A68A7B;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.save-btn:hover {
+  background-color: #b89482;
+}

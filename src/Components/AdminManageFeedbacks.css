@@ -1,0 +1,66 @@
+.manage-feedbacks-container {
+  padding: 30px;
+  background: #f5efe9;
+  min-height: calc(100vh - 70px);
+}
+
+.feedback-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 22px;
+}
+
+.feedback-card {
+  background: #DCCCBD;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+.feedback-card h3 {
+  color: #5A463A;
+}
+
+.email {
+  font-size: 13px;
+  color: #5A463A;
+  opacity: 0.8;
+}
+
+.message {
+  margin: 12px 0;
+  color: #5A463A;
+}
+
+.rating {
+  font-weight: 600;
+  color: #5A463A;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  resize: none;
+}
+
+.reply-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #5A463A;
+  color: #DCCCBD;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.replied {
+  display: inline-block;
+  margin-top: 10px;
+  color: #5A463A;
+  font-weight: 600;
+}

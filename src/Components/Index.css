@@ -1,0 +1,249 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #DCCCBD;
+    color: #5A463A;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+    width: 100%;
+    background-color: #A68A7B;
+    padding: 18px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #DCCCBD;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    width: 270px;
+    height: auto;
+    margin-bottom: 2px;
+    
+}
+
+
+.navbar h2 {
+    margin: 0;
+    font-size: 26px;
+    color: #DCCCBD;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #DCCCBD;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #5A463A;
+}
+
+/* LOGIN BUTTON */
+.btn-nav {
+    margin-left: 20px;
+    padding: 10px 32px;
+    background-color: #DCCCBD;
+    border: none;
+    color: #5A463A;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-nav:hover {
+    background-color: #cdb8a8;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+.hero {
+    padding: 120px 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 650px;
+    margin: auto;
+    opacity: 0.9;
+}
+
+/* MAIN BUTTON */
+.btn-main {
+    margin-top: 30px;
+    padding: 14px 36px;
+    background-color: #A68A7B;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-main:hover {
+    background-color: #b89482;
+}
+
+/* =========================
+   WHY CHOOSE US
+========================= */
+.section {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 38px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #E8DCCB;
+    width: 280px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    opacity: 0.85;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+    padding: 30px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 70px;
+}
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+/* Tablets */
+@media (max-width: 992px) {
+    .navbar {
+        padding: 16px 40px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+.card {
+    background-color: #E8DCCB;
+    width: 280px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0px 18px 35px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    width: 270px;
+    height: auto;
+    margin-bottom: 3px;
+    animation: float 4s ease-in-out infinite;
+    }
+
+/* Dreamy floating animation */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+

@@ -1,0 +1,63 @@
+/* PAGE CONTAINER */
+.analysis-container {
+  padding: 40px;
+}
+
+/* TITLE */
+.analysis-title {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 28px;
+  color: #5a3e2b;
+}
+
+
+/* GRID ROW LIKE MANAGE DREAMS */
+.stats-grid {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+
+/* CARD STYLE (same as Manage Dreams stats) */
+.stat-card {
+  background: #d9c7b3;
+  padding: 25px 35px;
+  border-radius: 15px;
+  min-width: 220px;
+  flex: 1;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: 0.3s;
+}
+
+
+/* HOVER EFFECT */
+.stat-card:hover {
+  transform: translateY(-5px);
+  background: #ceb79e;
+}
+
+
+/* LABEL */
+.stat-card span {
+  font-size: 16px;
+  color: #4a3425;
+}
+
+
+/* NUMBER */
+.stat-card h3 {
+  font-size: 28px;
+  color: #3b2415;
+  margin: 0;
+}
+.stat-card {
+  background: linear-gradient(135deg, #d9c7b3, #cbb39c);
+}
